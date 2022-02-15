@@ -57,14 +57,14 @@ class DataWM:
         return value
 
     def __call__(self,val):
-        if self.hitKeyWord(val):
-            return self.hitKeyWord(val)
+        if self.hitPhone(val):
+            return self.hitPhone(val)
         if self.hitPasswd(val):
             return self.hitPasswd(val)
         if self.hitIDCARD(val):
             return self.hitIDCARD(val)
-        if self.hitPhone(val):
-            return self.hitPhone(val)
+        if self.hitKeyWord(val):
+            return self.hitKeyWord(val)
         
        
 if __name__ == '__main__':
