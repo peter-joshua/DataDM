@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @作 者: 张帆
-# @文件名: test.py
+# @文件名: DataDM.py
 # @创建时间    : 2022/2/11 13:18
 import re
 import time
@@ -65,7 +65,7 @@ class DataWM:
             return self.hitPhone(val)
         if self.hitKeyWord(val):
             return self.hitKeyWord(val)
-        # return self._func, self._func_name, self.hitPasswd(val),self.hitPhone(val),self.hitKeyWord(val),self.hitIDCARD(val)
+       
 def decorator(func):
     def wrapper(*args, **kwargs):
         start_time = time.time()
