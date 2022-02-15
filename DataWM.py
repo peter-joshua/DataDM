@@ -10,7 +10,7 @@ class DataWM:
         self.data_list = []
         self.hiden2="*"
         # 身份证匹配表达式
-        self.IDCARD = "[0-9]{18}"
+        self.IDCARD = "[1-9][0-9]{17}"
         # 敏感关键字匹配规则
         self.keyword_list=["张","科技"]
         # # 匹配11位电话号码
