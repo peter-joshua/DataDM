@@ -66,15 +66,6 @@ class DataWM:
         if self.hitKeyWord(val):
             return self.hitKeyWord(val)
        
-def decorator(func):
-    def wrapper(*args, **kwargs):
-        start_time = time.time()
-        func(args)
-        end_time = time.time()
-        print(end_time - start_time)
-        print(args)
-
-    return wrapper
 if __name__ == '__main__':
     @DataWM
     def test(val):
