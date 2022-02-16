@@ -105,14 +105,3 @@ def decorator(func):
 @DataWM
 def test(data):
     return data
-if __name__ == '__main__':
-    data={"科技股":
-            {
-                "姓名": "张帆",
-                "电话": "15189820763",
-                "身份证": "321283198610309018",
-                "文本": "张氏科技",
-                "密码": "zf@123456"
-            }
-        }
-    print(test(data))
